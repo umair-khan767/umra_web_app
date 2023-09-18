@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+}
+
+#banner{
+    background: url(./images/Rectangle\ 3.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    flex-shrink: 0;
+}
+
+#banner img{
+    width: 140px;
+    position: absolute;
+    top: 2%;
+    left: 1%;
+    height: 15%;
+    width: 8%;
+}
+button{
+    display: flex;
+    float: right;
+    margin-right: 5rem;
+    margin-top: 0.2rem;
+    border: 1px solid white;
+    background: none;
+    color: white;
+    padding: 5px 8px;
+    border-radius: 4px;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+.banner-text{
+ 
+    color: white;
+    float: right;
+   margin-top: 35px;
+}
+
+ul li{
+    display: inline;
+    top: 5px;
+    padding-right: 0.5rem;
+    font-size: 14px;
+}
+
+ul li:hover{
+    cursor: pointer;
+    color: rgb(196, 193, 193);
+}
+
+.search-bar{
+    position: relative;
+    text-align: center;
+    top: 90%;
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+
+/* .form{
+    display: flexbox;
+
+    position: relative;
+    text-align: center;
+    top: 90%;
+    font-size: 10px;
+    color: #0075FF;
+    align-items: flex-start;
+    } */
+
+    /* ########## Banner 2 Styling ############### */
+    #banner2{
+        position: relative;
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 50px;
+        font-size: 26px;
+    }
+    .row{
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+        margin-left: 10%;
+        margin-right: 10%;
+       
+    }
+
+    .desc{
+        display: flex;
+        margin-top: 10px;
+        margin-top: 30px;
+        width: 300px;
+        height: 200px;
+    }
+
+    .desc h4{
+        position: absolute;
+        margin-left: 3rem;
+        font-size: 16px;
+        color: white;
+        margin-top: 13%;
+        text-align: center;
+        font-weight: 500;
+    }
+
+    /* ########## Banner 2 Styling  END ############### */
+
+    /* <!-- ########### Services Start ############ --> */
+
+    h1{
+        text-align: center;
+    }
+
+    .images{
+        display: flex;
+        flex-direction: column;
+        margin-left: 10%;
+        height: 178px;  
+        width: 198px;
+    }
+    .images .pic1{
+        background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+        }
+        .images .pic1 p{
+            text-align: center;
+        }
+    .pic1 img{
+       justify-content: center;
+       width: 135px;
+       height: 120px;
+       margin: auto;
+
+        
+    }
+
+    /* <!-- ########### Services End ############ --> */
