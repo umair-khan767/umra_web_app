@@ -2,11 +2,12 @@
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     font-family: sans-serif;
 }
 
-#banner{
+#banner {
     background: url(./images/Rectangle\ 3.png);
     background-size: cover;
     background-position: center;
@@ -14,7 +15,7 @@ body{
     flex-shrink: 0;
 }
 
-#banner img{
+#banner img {
     width: 140px;
     position: absolute;
     top: 2%;
@@ -22,40 +23,40 @@ body{
     height: 15%;
     width: 8%;
 }
-button{
-    display: flex;
+
+.btn {
     float: right;
-    margin-right: 5rem;
-    margin-top: 0.2rem;
+    margin-right: 3rem;
+    margin-top: 1rem;
     border: 1px solid white;
-    background: none;
     color: white;
     padding: 5px 8px;
     border-radius: 4px;
     font-size: 10px;
     cursor: pointer;
+    background: none;
 }
 
-.banner-text{
- 
+.banner-text {
+
     color: white;
     float: right;
-   margin-top: 35px;
+    margin-top: 5%;
 }
 
-ul li{
+.banner-text li {
     display: inline;
     top: 5px;
-    padding-right: 0.5rem;
+    padding: 0.5rem;
     font-size: 14px;
 }
 
-ul li:hover{
+ul li:hover {
     cursor: pointer;
     color: rgb(196, 193, 193);
 }
 
-.search-bar{
+.search-bar {
     position: relative;
     text-align: center;
     top: 90%;
@@ -63,84 +64,235 @@ ul li:hover{
     margin-bottom: 10px;
 }
 
-/* .form{
-    display: flexbox;
 
+.form {
+    display: flex;
+    padding-left: 5%;
+    padding-inline: 5px;
+    margin-top: 41%;
+    justify-content: center;
+    justify-content: space-evenly;
+    color: #0075FF;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.islamabad {
+
+    flex-shrink: 0;
+    padding: auto;
+    /* border-radius: 4px;
+    background: #FFF; */
+}
+
+
+/* ########## Banner 2 Styling ############### */
+#banner2 {
     position: relative;
     text-align: center;
-    top: 90%;
-    font-size: 10px;
-    color: #0075FF;
-    align-items: flex-start;
-    } */
+    margin-top: 40px;
+    margin-bottom: 50px;
+    font-size: 26px;
+}
 
-    /* ########## Banner 2 Styling ############### */
-    #banner2{
-        position: relative;
-        text-align: center;
-        margin-top: 40px;
-        margin-bottom: 50px;
-        font-size: 26px;
-    }
-    .row{
-        text-align: center;
-        display: flex;
-        justify-content: space-around;
-        margin-left: 10%;
-        margin-right: 10%;
-       
-    }
+.row {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
 
-    .desc{
-        display: flex;
-        margin-top: 10px;
-        margin-top: 30px;
-        width: 300px;
-        height: 200px;
-    }
+}
 
-    .desc h4{
-        position: absolute;
-        margin-left: 3rem;
-        font-size: 16px;
-        color: white;
-        margin-top: 13%;
-        text-align: center;
-        font-weight: 500;
-    }
+.desc {
+    display: flex;
+    margin-top: 10px;
+    margin-top: 30px;
+    width: 300px;
+    height: 200px;
+}
 
-    /* ########## Banner 2 Styling  END ############### */
+.desc h4 {
+    position: absolute;
+    margin-left: 4rem;
+    font-size: 16px;
+    color: white;
+    margin-top: 14%;
+    font-weight: 500;
+}
 
-    /* <!-- ########### Services Start ############ --> */
+/* ########## Banner 2 Styling  END ############### */
 
-    h1{
-        text-align: center;
-    }
+/* <!-- ########### Services Start ############ --> */
 
-    .images{
-        display: flex;
-        flex-direction: column;
-        margin-left: 10%;
-        height: 178px;  
-        width: 198px;
-    }
-    .images .pic1{
-        background: url(<path-to-image>), lightgray 50% / cover no-repeat;
-        }
-        .images .pic1 p{
-            text-align: center;
-        }
-    .pic1 img{
-       justify-content: center;
-       width: 135px;
-       height: 120px;
-       margin: auto;
+h1 {
+    text-align: center;
+}
 
-        
-    }
+.images {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    height: 500px;
+    width: 178px;
 
-    /* <!-- ########### Services End ############ --> */
+}
 
+.visa {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10%;
+    height: 500px;
+    width: 178px;
+}
+
+.visa .pic1 {
+    background: #F4F4F4;
+}
+
+.visa .pic1 p {
+    text-align: center;
+}
+
+.visa .pic2 p {
+    text-align: center;
+}
+
+
+.images .pic1 {
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    margin-top: 10px;
+}
+
+.images .pic1 p {
+    text-align: center;
+}
+
+.pic1 img {
+    justify-content: center;
+    width: 135px;
+    height: 120px;
+    /* margin-left: 20%; */
+
+}
+
+.pic2 {
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    margin-top: 10%;
+}
+
+.images .pic2 p {
+    text-align: center;
+}
+
+.pic2 img {
+    justify-content: center;
+    width: 135px;
+    height: 120px;
+    /* margin-left: 20%; */
+    margin-top: 10%;
+}
+
+.main-flex {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.second-div {
+    background: #F4F4F4;
+    width: 400px;
+    height: 300px;
+    margin-top: 10px;
+}
+
+.second-div img {
+    width: 250px;
+    height: 250px;
+
+}
+
+.second-div p {
+    color: #212529;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    padding-top: 15px;
+}
+
+/* <!-- ########### Services End ############ --> */
+
+
+
+#packages {
+    background: url(./images/package-world-wide-3\ 1.png);
+    color: #F4F4F4;
+}
+
+#packages h1 {
+    padding-top: 15px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.country {
+    display: flex;
+    align-items: center;
+    padding-left: 12%;
+}
+
+.world {
+    margin: 20px;
+
+}
+
+.world img {
+    width: 250px;
+    height: 150px;
+    justify-content: space-evenly;
+    justify-content: center;
+    transition: 1s;
+}
+
+.world img:hover {
+    cursor: pointer;
+    transform: scale(1.3);
+    z-index: 2;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+.world p {
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-top: 10px;
+}
+
+/* <!-- @################## More to Explore Start ##################### --> */
+
+#explore {
+    background: url(./images/Rectangle\ 11.png) repeat no-repeat;
+    width: 1120px;
+    height: 869px;
+}
+
+
+.slide {}
 
 /* git add .
    git commit -m "main_page"

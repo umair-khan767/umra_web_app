@@ -6,13 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Umrah Project</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
 </head>
 
 <body>
     <!-- ########### Banner Start ############ -->
     <section id="banner">
         <img src="./images/Red and Blue Simple Travel Logo.png" alt="error">
-        <button type="button">Sign in</button>
+   
+        <div class="btn">
+            <button type="button">Sign in</button>
+        </div>
+        
         <div class="banner-text">
             <ul>
                 <li>Home</li>
@@ -31,21 +36,30 @@
             <input type="radio" id="one-way" name="fav_language" value="One-Way">
             <label for="one-way">One-Way</label><br>
         </div>
-        <!-- <div class="form">
-        <form>
+
+        <div class="form">
+        <!-- <form> -->
+            <div class="islamabad">
         <label for="Departure Airport">Departure Airport</label><br>
         <input type="text" id="Departure Airport" name="Islamabad (ISB)" placeholder="Islamabad (ISB)...">
+    </div>
 
+        <div class="arrival">
         <label for="Arrival Airport">Arrival Airport</label><br>
         <input type="text" id="Arrival Airport" name="Going To" placeholder="Going To...">
+    </div>
 
-        <label for="Departure Airport">Departure Airport</label><br>
-        <input type="text" id="Departure Airport" name="Islamabad (ISB)" placeholder="Islamabad (ISB)...">
+        <div class="date">
+        <label for="Departure/Return">Departure/Return</label><br>
+        <input type="text" id="Departure/Return" name="Dates" placeholder="Dates...">
+    </div>
 
-        <label for="Departure Airport">Departure Airport</label><br>
-        <input type="text" id="Departure Airport" name="Islamabad (ISB)" placeholder="Islamabad (ISB)...">
-    </form>
-</div> -->
+    <div class="passenger">
+        <label for="Passenger">Passenger</label><br>
+        <input type="text" id="Passenger" name="ADT 1, CNN 0, INF 0" placeholder="ADT 1, CNN 0, INF 0">
+    </div>
+    <!-- </form> -->
+</div>
     </section>
     <!-- ########### Banner End ############ -->
 
@@ -80,6 +94,7 @@
 <!-- ########### Services Start ############ -->
 <div class="services">
         <h1>Services We Offers</h1>
+        <div class="main-flex">
         <div class="images">
             <div class="pic1">
                 <img src="./images/1.png" alt="">
@@ -89,20 +104,63 @@
                 <img src="./images/2.png" alt="">
                 <p>Tourism</p>
             </div>
+        </div>
+
+        <div class="second-div">
+            <img src="./images/3.png" alt="">
+            <p>Hajj & Umrah</p>
+        </div>
+        <div class="visa">
+            <div class="pic1">
+                <img src="./images/4.png" alt="">
+                <p>Visa</p>
             </div>
+            <div class="pic2">
+                <img src="./images/5.png" alt="">
+                <p>Trnsport</p>
+            </div>
+        </div>
+    </div>
+
 <!-- ########### Services End ############ -->
 
 <!-- ##################### Worldwide Packages ##################### -->
 
-<!-- <section id="packages">
+<section id="packages">
+    <h1>Worldwide Packages</h1>
     <div class="country">
-        <h1>Worldwide Packages</h1>
-    </div>
-    <div class="world">
+        <div class="world">
         <img src="./images/Rectangle 21.png" alt="">
         <p>Switzerland</p>
     </div>
-</section> -->
+    <div class="world">
+        <img src="./images/Rectangle 22.png" alt="">
+        <p>India</p>
+    </div>
+    <div class="world">
+        <img src="./images/Rectangle 23.png" alt="">
+        <p>Paris</p>
+    </div>
+</div>
+</section>
+
+
+<!-- @################## More to Explore Start ##################### -->
+<section id="explore">
+    <h1>More to Explore</h1>
+    <div class="slide">
+        <div class="slide1">
+            <img src="./images/Rectangle 12.png" alt="">
+        </div>
+        <div class="slide2">
+            <img src="./images/Rectangle 13.png" alt="">
+        </div>
+        <div class="slide3">
+            <img src="./images/Rectangle 14.png" alt="">
+        </div>
+    </div>
+
+</section>
 
 </body>
 
