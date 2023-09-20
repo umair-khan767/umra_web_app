@@ -5,31 +5,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Umrah Project</title>
+    
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="bootstrap.min.css">
 </head>
 
 <body>
     <!-- ########### Banner Start ############ -->
-    <section id="banner">
-        <img src="./images/Red and Blue Simple Travel Logo.png" alt="error">
-   
+    <header class="header">
+        <a href="#" class="logo"><img src="./images/logo-login-screen 1.png" alt=""></a>
+
         <div class="btn">
             <button type="button">Sign in</button>
         </div>
-        
-        <div class="banner-text">
-            <ul>
-                <li>Home</li>
-                <li>Flights</li>
-                <li>Umrah</li>
-                <li>Hotels</li>
-                <li>Tour</li>
-                <li>Rent A Car</li>
-                <li>About Us</li>
-                <li>Contact Us</li>
-            </ul>
-        </div>
+
+          <select id="countrySelector">
+        <option value="">Select a Country</option>
+        <option value="US">United States</option>
+        <option value="CA">Canada</option>
+        <option value="PK">Pakistan</option>
+        <option value="CH">China</option>
+        <option value="IND">India</option>
+        <option value="SA">Saudi Arbia</option>
+        <option value="NEP">Nepal</option>
+        <option value="SRI">Serilanka</option>
+        <option value="AS">American Samoa</option>
+        <option value="AD">Andorra</option>
+        <option value="AO">Angola</option>
+        <option value="AI">Anguilla</option>
+        <option value="AQ">Antarctica</option>
+        <option value="AR">Argentina</option>
+        <option value="AM">Armenia</option>
+       
+
+        <!-- Add more countries as needed -->
+    </select>
+
+    <!-- Options Select (Initially Hidden) -->
+
+
+        <nav class="navbar">
+            <a href="#">Contact Us</a>
+            <a href="#">About Us</a>
+            <a href="#">Rent A Car</a>
+            <a href="#">Tour</a>
+            <a href="#">Hotels</a>
+            <a href="#">Umrah</a>
+            <a href="#">Flights</a>
+            <a href="#">Home</a>
+        </nav>
+          
+    </header>
         <div class="search-bar">
             <input type="radio" id="Round Trip" name="fav_language" value="Round Trip">
             <label for="round trip">Round Trip</label>
@@ -38,7 +63,7 @@
         </div>
 
         <div class="form">
-        <!-- <form> -->
+        <form>
             <div class="islamabad">
         <label for="Departure Airport">Departure Airport</label><br>
         <input type="text" id="Departure Airport" name="Islamabad (ISB)" placeholder="Islamabad (ISB)...">
@@ -58,8 +83,20 @@
         <label for="Passenger">Passenger</label><br>
         <input type="text" id="Passenger" name="ADT 1, CNN 0, INF 0" placeholder="ADT 1, CNN 0, INF 0">
     </div>
-    <!-- </form> -->
+
+    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
+        <g clip-path="url(#clip0_5_19)">
+          <path d="M35.5796 33.3936L25.5676 23.2895C27.8364 20.4309 28.923 16.8116 28.6036 13.1763C28.2843 9.5411 26.5834 6.16651 23.8509 3.74696C21.1184 1.32741 17.5622 0.0469768 13.9141 0.169134C10.266 0.291291 6.80344 1.80675 4.23902 4.40366C1.67459 7.00058 0.20335 10.4814 0.12804 14.1298C0.0527302 17.7783 1.37908 21.3168 3.83416 24.0173C6.28924 26.7178 9.68628 28.3747 13.3263 28.6473C16.9662 28.9198 20.5722 27.7871 23.4023 25.4823L33.3489 35.5197C33.6303 35.8147 34.0171 35.9862 34.4247 35.9967C34.8323 36.0072 35.2274 35.8558 35.5236 35.5757C35.8188 35.2928 35.9904 34.9048 36.0008 34.4962C36.0113 34.0875 35.8599 33.6912 35.5796 33.3936ZM14.3543 25.6023C11.7478 25.6017 9.2221 24.6976 7.20758 23.0441C5.19306 21.3906 3.81431 19.09 3.30623 16.5341C2.79816 13.9783 3.19219 11.3254 4.42119 9.02748C5.6502 6.72952 7.63814 4.92866 10.0463 3.93172C12.4545 2.93478 15.134 2.80343 17.6282 3.56005C20.1224 4.31668 22.277 5.91446 23.725 8.08119C25.173 10.2479 25.8247 12.8495 25.5692 15.4428C25.3136 18.0361 24.1666 20.4605 22.3236 22.3031C21.2793 23.3524 20.0372 24.1842 18.6693 24.7505C17.3014 25.3167 15.8348 25.6063 14.3543 25.6023Z" fill="white"/>
+        </g>
+        <defs>
+          <clipPath id="clip0_5_19">
+            <rect width="36" height="36" fill="white"/>
+          </clipPath>
+        </defs>
+      </svg>
+    </form>
 </div>
+
     </section>
     <!-- ########### Banner End ############ -->
 
@@ -68,7 +105,7 @@
     <section id="banner2">
         <div class="content">
             <h1>Worldwide Deals</h1>
-            <div class="row">
+            <div class="roww">
                 <div class="desc">
                     <img src="./images/Rectangle 8.png" alt="">
                     <h4>Offer Cheapest Flights</h4>
@@ -115,7 +152,7 @@
                 <img src="./images/4.png" alt="">
                 <p>Visa</p>
             </div>
-            <div class="pic2">
+            <div class="pic5">
                 <img src="./images/5.png" alt="">
                 <p>Trnsport</p>
             </div>
@@ -151,15 +188,35 @@
     <div class="slide">
         <div class="slide1">
             <img src="./images/Rectangle 12.png" alt="">
+            <p>The Lunar New Year Guide</p>
         </div>
         <div class="slide2">
             <img src="./images/Rectangle 13.png" alt="">
+            <p>The Lunar New Year Guide</p>
         </div>
         <div class="slide3">
             <img src="./images/Rectangle 14.png" alt="">
+            <p>Sahara Special Vibes</p>
         </div>
     </div>
 
+</section>
+<!-- ##################### END ############################## -->
+
+<!-- ########################### Certified Company Start ########################### -->
+
+<section class="company">
+    <div>
+        <h2>We Are Certified Company</h2>
+        <div class="footer">
+            <ul>
+        <li><img src="./images/Rectangle 212.png" alt=""></li>
+        <li><img src="./images/Rectangle 211.png" alt=""></li>
+        <li><img src="./images/Rectangle 213.png" alt=""></li>
+        <li><img src="./images/Rectangle 214.png" alt=""></li>
+    </ul>
+    </div>
+    </div>
 </section>
 
 </body>

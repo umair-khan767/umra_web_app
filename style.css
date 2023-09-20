@@ -1,77 +1,86 @@
 * {
     margin: 0;
     padding: 0;
-}
-
-body {
+    box-sizing: border-box;
     font-family: sans-serif;
 }
 
-#banner {
-    background: url(./images/Rectangle\ 3.png);
+body {
+    background: url(./images/Rectangle\ 3.png) no-repeat;
+    height: 100vh;
     background-size: cover;
     background-position: center;
-    height: 100vh;
-    flex-shrink: 0;
 }
 
-#banner img {
-    width: 140px;
+.header {
+
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    z-index: 100;
+}
+
+.logo img {
+    height: 70px;
+    width: 100px;
+    float: left;
+}
+
+.navbar a {
+    font-size: 15px;
+    color: #FFF;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 42px;
+    float: right;
+    margin-top: 40px;
+
+}
+
+.btn button {
+    float: right;
     position: absolute;
-    top: 2%;
-    left: 1%;
-    height: 15%;
-    width: 8%;
-}
-
-.btn {
-    float: right;
-    margin-right: 3rem;
-    margin-top: 1rem;
-    border: 1px solid white;
-    color: white;
-    padding: 5px 8px;
-    border-radius: 4px;
-    font-size: 10px;
-    cursor: pointer;
+    margin-left: 70%;
+    margin-right: 5px;
     background: none;
-}
-
-.banner-text {
-
-    color: white;
-    float: right;
-    margin-top: 5%;
-}
-
-.banner-text li {
-    display: inline;
-    top: 5px;
-    padding: 0.5rem;
-    font-size: 14px;
-}
-
-ul li:hover {
+    border: 1px solid white;
+    color: #FFF;
+    padding: 4px 7px;
+    border-radius: 4px;
     cursor: pointer;
-    color: rgb(196, 193, 193);
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+
 }
 
 .search-bar {
-    position: relative;
+    position: absolute;
     text-align: center;
-    top: 90%;
-    font-size: 10px;
-    margin-bottom: 10px;
+    top: 95%;
+    left: 92px;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    
 }
 
 
-.form {
+.form form {
     display: flex;
     padding-left: 5%;
     padding-inline: 5px;
-    margin-top: 41%;
+    margin-top: 37%;
     justify-content: center;
     justify-content: space-evenly;
+
     color: #0075FF;
     font-family: Montserrat;
     font-size: 12px;
@@ -80,36 +89,75 @@ ul li:hover {
     line-height: normal;
 }
 
+.form input {
+    border: 1px solid #fff;
+    padding: 8px 8px;
+    border-radius: 4px;
+}
+
+svg {
+    position: relative;
+    /* margin-left: 93%; */
+    margin-bottom: 5px;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    padding: 4px;
+    border-radius: 3px;
+    background: #DEA527;
+    top: 10px;
+}
+
+svg:hover {
+    border: 2px solid #fff;
+}
+
 .islamabad {
 
     flex-shrink: 0;
     padding: auto;
-    /* border-radius: 4px;
-    background: #FFF; */
+}
+
+#countrySelector{
+    height: 15px;
+    width: auto;
+    position: absolute;
+    margin-right: 60px;
 }
 
 
 /* ########## Banner 2 Styling ############### */
+
+.content h1 {
+    text-align: center;
+    color: #212529;
+    font-family: Montserrat;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
 #banner2 {
     position: relative;
     text-align: center;
-    margin-top: 40px;
+    margin-top: 70px;
     margin-bottom: 50px;
     font-size: 26px;
 }
 
-.row {
+.roww {
     text-align: center;
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-evenly; */
     justify-content: center;
 
 }
 
 .desc {
     display: flex;
-    margin-top: 10px;
-    margin-top: 30px;
+    /* margin-top: 10px; */
+    margin-top: 25px;
     width: 300px;
     height: 200px;
 }
@@ -119,7 +167,7 @@ ul li:hover {
     margin-left: 4rem;
     font-size: 16px;
     color: white;
-    margin-top: 14%;
+    margin-top: 13%;
     font-weight: 500;
 }
 
@@ -127,33 +175,49 @@ ul li:hover {
 
 /* <!-- ########### Services Start ############ --> */
 
-h1 {
+.services h1 {
     text-align: center;
+    color: #212529;
+    font-family: Montserrat;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
 
 .images {
-    display: flex;
+    /* display: flex; */
     flex-direction: column;
     margin-left: 10%;
-    height: 500px;
-    width: 178px;
+    margin-top: 5px;
+    width: 148px;
 
 }
 
 .visa {
-    display: flex;
+    /* display: flex; */
     flex-direction: column;
     margin-right: 10%;
-    height: 500px;
-    width: 178px;
+    margin-top: 8px;
+
+    width: 148px;
 }
 
 .visa .pic1 {
     background: #F4F4F4;
+    margin-left: 10px;
+    margin-top: 19px;
 }
 
 .visa .pic1 p {
     text-align: center;
+    color: #212529;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-bottom: 8px;
 }
 
 .visa .pic2 p {
@@ -163,11 +227,19 @@ h1 {
 
 .images .pic1 {
     background: url(<path-to-image>), lightgray 50% / cover no-repeat;
-    margin-top: 10px;
+    margin-top: 22px;
+    margin-right: 10px;
 }
 
 .images .pic1 p {
     text-align: center;
+    color: #212529;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    /* padding-bottom: 8px; */
 }
 
 .pic1 img {
@@ -180,31 +252,62 @@ h1 {
 
 .pic2 {
     background: url(<path-to-image>), lightgray 50% / cover no-repeat;
-    margin-top: 10%;
+    margin-top: 13%;
+    margin-right: 10px;
+}
+
+.pic5 {
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    margin-top: 8%;
+    margin-left: 10px;
+}
+
+.pic5 img {
+    justify-content: center;
+    width: 135px;
+    height: 120px;
+}
+
+.pic5 p {
+    text-align: center;
+    padding-bottom: 5px;
+    color: #212529;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-bottom: 8px;
 }
 
 .images .pic2 p {
     text-align: center;
+    color: #212529;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-bottom: 8px;
 }
 
 .pic2 img {
     justify-content: center;
     width: 135px;
     height: 120px;
-    /* margin-left: 20%; */
     margin-top: 10%;
 }
 
 .main-flex {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 .second-div {
     background: #F4F4F4;
-    width: 400px;
-    height: 300px;
-    margin-top: 10px;
+    width: 580px;
+    height: 305px;
+    margin-top: 25px;
 }
 
 .second-div img {
@@ -231,6 +334,8 @@ h1 {
 #packages {
     background: url(./images/package-world-wide-3\ 1.png);
     color: #F4F4F4;
+    width: 1263px;
+    margin-top: 40px;
 }
 
 #packages h1 {
@@ -286,13 +391,89 @@ img {
 /* <!-- @################## More to Explore Start ##################### --> */
 
 #explore {
-    background: url(./images/Rectangle\ 11.png) repeat no-repeat;
-    width: 1120px;
-    height: 869px;
+    background: url(./images/Rectangle\ 11.png) no-repeat;
+    background-size: cover;
+    width: 1263px;
+    height: 550px;
+    margin-top: 50px;
+    justify-content: space-between;
+    align-items: center;
+    /* position: absolute; */
 }
 
+#explore h1 {
+    margin-left: 20px;
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 
-.slide {}
+}
+
+.slide {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20PX;
+}
+
+.slide p {
+    color: #000;
+    text-align: center;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border: 1px solid #FFF;
+    background: #FFF;
+}
+
+.slide1 img {
+    width: 400px;
+    height: 400px;
+}
+
+.slide2 img {
+    width: 400px;
+    height: 400px;
+}
+
+.slide3 img {
+    width: 400px;
+    height: 400px;
+}
+
+/* #################### END ################ */
+
+/* <!-- ############# Certified Company Start styling ################ --> */
+
+.company h2 {
+    text-align: center;
+    padding-top: 50px;
+    color: #212529;
+    font-family: Montserrat;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.footer li{
+    display: flex;
+   justify-content: space-between;
+    width: 80px;
+    height: 70px;
+}
+
+.footer ul{
+    list-style: none; 
+    padding: 0; 
+    margin: 0;
+}
 
 /* git add .
    git commit -m "main_page"
