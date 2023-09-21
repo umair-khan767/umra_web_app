@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background: url(./images/bg-register-login\ 1.png), lightgray -178.932px -110.41px / 119.853% 119.853% no-repeat;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.login{
+    
+}

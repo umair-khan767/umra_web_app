@@ -27,15 +27,17 @@ body {
 .logo img {
     height: 70px;
     width: 100px;
-    float: left;
+
+
 }
 
 .navbar a {
+
     font-size: 15px;
     color: #FFF;
     font-weight: 500;
     text-decoration: none;
-    margin-left: 42px;
+    margin-left: 30px;
     float: right;
     margin-top: 40px;
 
@@ -44,7 +46,8 @@ body {
 .btn button {
     float: right;
     position: absolute;
-    margin-left: 70%;
+    margin-top: 1px;
+    margin-left: 65%;
     margin-right: 5px;
     background: none;
     border: 1px solid white;
@@ -59,6 +62,10 @@ body {
 
 }
 
+.btn:hover{
+    
+}
+
 .search-bar {
     position: absolute;
     text-align: center;
@@ -69,7 +76,7 @@ body {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    
+
 }
 
 
@@ -77,7 +84,7 @@ body {
     display: flex;
     padding-left: 5%;
     padding-inline: 5px;
-    margin-top: 37%;
+    margin-top: 36%;
     justify-content: center;
     justify-content: space-evenly;
 
@@ -87,6 +94,7 @@ body {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+
 }
 
 .form input {
@@ -95,17 +103,16 @@ body {
     border-radius: 4px;
 }
 
-svg {
-    position: relative;
-    /* margin-left: 93%; */
-    margin-bottom: 5px;
+.search-icon svg {
+    position: absolute;
     cursor: pointer;
-    width: 30px;
-    height: 30px;
-    padding: 4px;
+    width: 40px;
+    height: 40px;
     border-radius: 3px;
     background: #DEA527;
-    top: 10px;
+    padding: 9px 9px 9px 9px;
+    top: 100.5%;
+    right: 10%;
 }
 
 svg:hover {
@@ -118,11 +125,12 @@ svg:hover {
     padding: auto;
 }
 
-#countrySelector{
-    height: 15px;
+#countrySelector {
+    height: 20px;
     width: auto;
     position: absolute;
-    margin-right: 60px;
+    margin-left: 75%;
+    margin-top: 3px;
 }
 
 
@@ -167,7 +175,7 @@ svg:hover {
     margin-left: 4rem;
     font-size: 16px;
     color: white;
-    margin-top: 13%;
+    margin-top: 14%;
     font-weight: 500;
 }
 
@@ -364,6 +372,7 @@ svg:hover {
     height: 150px;
     justify-content: space-evenly;
     justify-content: center;
+
     transition: 1s;
 }
 
@@ -376,6 +385,7 @@ svg:hover {
 img {
     display: block;
     margin: 0 auto;
+
 }
 
 .world p {
@@ -386,6 +396,7 @@ img {
     font-weight: 600;
     line-height: normal;
     padding-top: 10px;
+    z-index: 5;
 }
 
 /* <!-- @################## More to Explore Start ##################### --> */
@@ -394,11 +405,10 @@ img {
     background: url(./images/Rectangle\ 11.png) no-repeat;
     background-size: cover;
     width: 1263px;
-    height: 550px;
+    height: 510px;
     margin-top: 50px;
     justify-content: space-between;
     align-items: center;
-    /* position: absolute; */
 }
 
 #explore h1 {
@@ -410,6 +420,7 @@ img {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    padding-top: 12px;
 
 }
 
@@ -424,27 +435,28 @@ img {
     text-align: center;
     text-align: center;
     font-family: Poppins;
-    font-size: 25px;
+    font-size: 22px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
     border: 1px solid #FFF;
     background: #FFF;
+    padding: 8px;
 }
 
 .slide1 img {
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 350px;
 }
 
 .slide2 img {
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 350px;
 }
 
 .slide3 img {
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 350px;
 }
 
 /* #################### END ################ */
@@ -462,18 +474,167 @@ img {
     line-height: normal;
 }
 
-.footer li{
-    display: flex;
-   justify-content: space-between;
-    width: 80px;
-    height: 70px;
+.footer img {
+    /* display: flex; */
+    justify-items: start;
+    width: 200px;
+    height: 80px;
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
 
-.footer ul{
-    list-style: none; 
-    padding: 0; 
-    margin: 0;
+.footer ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding-left: 10px;
+    margin: 10px 0;
+    /* border-bottom: 1px solid gray; */
 }
+
+hr {
+    /* width: 940px; */
+    height: 2px;
+    background: #808080;
+    align-items: center;
+   
+
+}
+
+.furas-travel {
+    display: flex;
+
+}
+
+.footer-data {
+    margin-left: 10%;
+
+}
+
+.furas-travel h4 {
+    color: #212529;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-top: 30px;
+}
+
+.furas-travel li {
+    color: #212529;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: none;
+    font-weight: 400;
+    line-height: 30px;
+    list-style: none;
+}
+
+.footer-data {
+    color: #212529;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.footer-data label {
+    color: #212529;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 7px;
+}
+
+.footer-data input {
+    border-radius: 7px;
+    border: 1px solid #696969;
+    padding: 5px 15px;
+
+
+}
+
+.fa-brands {
+    /* padding: 20px; */
+    font-size: 25px;
+    width: 40px;
+    /* text-align: center; */
+    text-decoration: none;
+
+}
+
+.fa-solid {
+    font-size: 25px;
+    width: 40px;
+    text-decoration: none;
+}
+
+.fa-whatsapp {
+    color: #25D366;
+}
+
+.fa-facebook {
+    color: #0075FF;
+}
+
+.fa-twitter {
+    color: #1DA1F2;
+}
+
+.fa-linkedin {
+    background: linear-gradient();
+    color: #0077B5;
+    border-radius: 5px;
+}
+
+.fa-instagram {
+    border: 1px solid #FFF;
+    background: linear-gradient(#F68527, #FEDA79, #DD297B, #7B449A, #5660AB);
+    width: 27px;
+    /* padding: 2px 2px 2px 3px; */
+    border-radius: 7px;
+    color: #FFF;
+    text-align: center;
+}
+
+button {
+    margin-top: 15px;
+    border: 1px solid #DEA527;
+    border-radius: 5px;
+    background: #DEA527;
+    padding: 2px 15px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.fa-phone {
+    color: #B10B0D;
+}
+
+.copyright {
+    text-align: center;
+    color: #212529;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 5%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    border-top: 1px solid #000;
+}
+
+
 
 /* git add .
    git commit -m "main_page"
