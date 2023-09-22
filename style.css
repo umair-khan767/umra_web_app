@@ -13,11 +13,10 @@ body {
 }
 
 .header {
-
     top: 0;
     left: 0;
     width: 100%;
-    padding: 20px 100px;
+    padding: 20px 35px;
     display: flex;
     justify-content: space-between;
     /* align-items: center; */
@@ -129,7 +128,7 @@ svg:hover {
     height: 20px;
     width: auto;
     position: absolute;
-    margin-left: 75%;
+    margin-left: 80%;
     margin-top: 3px;
 }
 
@@ -477,10 +476,11 @@ img {
 .footer img {
     /* display: flex; */
     justify-items: start;
-    width: 200px;
-    height: 80px;
+    width: 220px;
+    height: 75px;
     margin-top: 20px;
     margin-bottom: 30px;
+    padding: 0px 10px;
 }
 
 .footer ul {
@@ -497,6 +497,8 @@ hr {
     height: 2px;
     background: #808080;
     align-items: center;
+    margin-right: 8%;
+    margin-left: 8%; 
    
 
 }
@@ -514,7 +516,7 @@ hr {
 .furas-travel h4 {
     color: #212529;
     font-family: Montserrat;
-    font-size: 20px;
+    font-size: 17px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -548,7 +550,9 @@ hr {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-left: 7px;
+    margin-left: 8px;
+    position: absolute;
+    margin-top: 5px;
 }
 
 .footer-data input {
@@ -556,50 +560,6 @@ hr {
     border: 1px solid #696969;
     padding: 5px 15px;
 
-
-}
-
-.fa-brands {
-    /* padding: 20px; */
-    font-size: 25px;
-    width: 40px;
-    /* text-align: center; */
-    text-decoration: none;
-
-}
-
-.fa-solid {
-    font-size: 25px;
-    width: 40px;
-    text-decoration: none;
-}
-
-.fa-whatsapp {
-    color: #25D366;
-}
-
-.fa-facebook {
-    color: #0075FF;
-}
-
-.fa-twitter {
-    color: #1DA1F2;
-}
-
-.fa-linkedin {
-    background: linear-gradient();
-    color: #0077B5;
-    border-radius: 5px;
-}
-
-.fa-instagram {
-    border: 1px solid #FFF;
-    background: linear-gradient(#F68527, #FEDA79, #DD297B, #7B449A, #5660AB);
-    width: 27px;
-    /* padding: 2px 2px 2px 3px; */
-    border-radius: 7px;
-    color: #FFF;
-    text-align: center;
 }
 
 button {
@@ -616,9 +576,15 @@ button {
     line-height: normal;
 }
 
-.fa-phone {
-    color: #B10B0D;
+.footer-data img{
+    width: 20px;
+    float: left;
+    padding-top: 5px;
+    margin-left: 16px;
+    position: relative;
+    margin-right: 10%;
 }
+
 
 .copyright {
     text-align: center;
@@ -632,6 +598,8 @@ button {
     padding-bottom: 1%;
     padding-top: 1%;
     border-top: 1px solid #000;
+    margin-right: 8%;
+    margin-left: 8%;
 }
 
 
