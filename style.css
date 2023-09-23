@@ -11,7 +11,12 @@ body {
     background-size: cover;
     background-position: center;
 }
-
+.navbar {
+    position: relative;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    /* border: 1px solid transparent; */
+}
 .header {
     top: 0;
     left: 0;
@@ -39,10 +44,13 @@ body {
     margin-left: 30px;
     float: right;
     margin-top: 40px;
-
 }
 
-.btn button {
+.navbar a:hover {
+    color: rgb(202, 198, 198);
+}
+
+.btn button{
     float: right;
     position: absolute;
     margin-top: 1px;
@@ -58,18 +66,18 @@ body {
     font-size: 12px;
     font-style: normal;
     font-weight: 700;
-
 }
 
-.btn:hover{
-    
+.btn button:hover {
+    background: #DEA527;
+    color: black;
 }
 
 .search-bar {
     position: absolute;
     text-align: center;
-    top: 95%;
-    left: 92px;
+    top: 94%;
+    left: 105px;
     font-family: Montserrat;
     font-size: 12px;
     font-style: normal;
@@ -83,7 +91,7 @@ body {
     display: flex;
     padding-left: 5%;
     padding-inline: 5px;
-    margin-top: 36%;
+    margin-top: 31%;
     justify-content: center;
     justify-content: space-evenly;
 
@@ -110,8 +118,8 @@ body {
     border-radius: 3px;
     background: #DEA527;
     padding: 9px 9px 9px 9px;
-    top: 100.5%;
-    right: 10%;
+    top: 101%;
+    right: 11%;
 }
 
 svg:hover {
@@ -128,8 +136,9 @@ svg:hover {
     height: 20px;
     width: auto;
     position: absolute;
-    margin-left: 80%;
-    margin-top: 3px;
+    margin-left: 78%;
+    margin-top: 15px;
+    cursor: pointer;
 }
 
 
@@ -174,7 +183,7 @@ svg:hover {
     margin-left: 4rem;
     font-size: 16px;
     color: white;
-    margin-top: 14%;
+    margin-top: 13%;
     font-weight: 500;
 }
 
@@ -404,7 +413,7 @@ img {
     background: url(./images/Rectangle\ 11.png) no-repeat;
     background-size: cover;
     width: 1263px;
-    height: 510px;
+    height: 540px;
     margin-top: 50px;
     justify-content: space-between;
     align-items: center;
@@ -458,6 +467,44 @@ img {
     height: 350px;
 }
 
+.slide1 {
+    position: relative;
+    width: 350px;
+}
+.slide2 {
+    position: relative;
+    width: 350px;
+}
+.slide3 {
+    position: relative;
+    width: 350px;
+}
+
+.image-container {
+    position: relative;
+}
+
+.fa-regular {
+    position: absolute;
+    top: 5px;
+    /* Adjust the top position as needed */
+    right: 5px;
+    /* Adjust the right position as needed */
+    font-size: 24px;
+    /* Adjust the font size as needed */
+    color: black;
+    /* Adjust the color as needed */
+    border: 1px solid #FFF;
+    border-radius: 100px;
+    background: #FFF;
+    padding: 8px;
+}
+
+.fa-regular:hover {
+    color: red;
+    cursor: pointer;
+}
+
 /* #################### END ################ */
 
 /* <!-- ############# Certified Company Start styling ################ --> */
@@ -489,19 +536,21 @@ img {
     justify-content: center;
     padding-left: 10px;
     margin: 10px 0;
-    /* border-bottom: 1px solid gray; */
+    border-bottom: 2px solid gray;
+    margin-right: 8%;
+    margin-left: 8%;
 }
 
-hr {
-    /* width: 940px; */
+/* hr {
+    width: 940px;
     height: 2px;
     background: #808080;
     align-items: center;
     margin-right: 8%;
-    margin-left: 8%; 
-   
+    margin-left: 8%;
 
-}
+
+} */
 
 .furas-travel {
     display: flex;
@@ -556,13 +605,19 @@ hr {
 }
 
 .footer-data input {
-    border-radius: 7px;
+    border-radius: 5px;
     border: 1px solid #696969;
-    padding: 5px 15px;
+    color: #696969;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 4px;
 
 }
 
-button {
+.btn2 button {
     margin-top: 15px;
     border: 1px solid #DEA527;
     border-radius: 5px;
@@ -576,11 +631,11 @@ button {
     line-height: normal;
 }
 
-.footer-data img{
+.footer-data img {
     width: 20px;
     float: left;
     padding-top: 5px;
-    margin-left: 16px;
+    margin-left: -2px;
     position: relative;
     margin-right: 10%;
 }

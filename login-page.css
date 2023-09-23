@@ -65,17 +65,18 @@ body {
     line-height: normal;
     cursor: pointer;
 }
-button:hover{
+
+button:hover {
     background: #212529;
 }
 
-.register .btn2{
+.register .btn2 {
     border-radius: 3px;
-border: 1px solid #DEA527;
-background: #212529;
-margin-left: 5px;
+    border: 1px solid #DEA527;
+    background: #212529;
+    margin-left: 5px;
 }
 
-.btn2:hover{
+.btn2:hover {
     background: #DEA527;
 }
