@@ -20,8 +20,8 @@
 }
 
 .logo img {
-    height: 70px;
-    width: 100px;
+    height: 40px;
+    width: 170px;
 
 
 }
@@ -42,7 +42,7 @@
     float: right;
     position: absolute;
     margin-top: 1px;
-    margin-left: 65%;
+    margin-left: 62%;
     margin-right: 5px;
     background: none;
     border: 1px solid white;

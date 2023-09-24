@@ -1,0 +1,435 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.header {
+    top: 0;
+    left: 0;
+    /* width: 100%; */
+    padding: 20px 35px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 100;
+    background: #212529;
+    width: 1263px;
+    height: 102px;
+    flex-shrink: 0;
+}
+
+.logo img {
+    height: 40px;
+    width: 190px;
+}
+
+.navbar a {
+
+    font-size: 15px;
+    color: #FFF;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 30px;
+    float: right;
+    margin-top: 40px;
+
+}
+
+.btn button {
+    float: right;
+    position: absolute;
+    margin-top: 1px;
+    margin-left: 62%;
+    margin-right: 5px;
+    background: none;
+    border: 1px solid white;
+    color: #FFF;
+    padding: 4px 7px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+
+}
+
+.btn button:hover {
+    background: #DEA527;
+    color: black;
+}
+
+#countrySelector {
+    height: 20px;
+    width: auto;
+    position: absolute;
+    margin-left: 80%;
+    margin-top: 3px;
+}
+
+/* ##################### HEADER END ########################## */
+
+/* #################### Form styling Start ####################### */
+
+.container {
+    border: 2px solid #DEA527;
+    background: #DEA527;
+    margin-top: 5%;
+    margin-left: 8%;
+    margin-right: 8%;
+    border-radius: 6px;
+    padding: 10px 20px;
+
+}
+
+.main-div {
+    display: flex;
+    /* margin-left: 0px; */
+    justify-content: space-evenly;
+}
+
+.main-div label {
+    color: #FFF;
+}
+
+.input-container1 input {
+    padding: 5px 30px;
+}
+
+.input-container input {
+    padding: 5px 30px;
+}
+
+.input-container1 {
+    position: relative;
+}
+
+.input-container {
+    position: relative;
+}
+
+.input-field {
+    padding-left: 30px;
+    /* Adjust the padding to create space for the icon */
+}
+
+.inside-icon1 {
+    position: absolute;
+    left: 90%;
+    /* Adjust the left position to position the icon where you want */
+    top: 68%;
+    /* Center vertically */
+    transform: translateY(-50%);
+    /* Center vertically */
+}
+
+.inside-icon {
+    position: absolute;
+    left: 3px;
+    /* Adjust the left position to position the icon where you want */
+    top: 68%;
+    /* Center vertically */
+    transform: translateY(-50%);
+    /* Center vertically */
+}
+
+.main-div2 {
+    display: flex;
+    /* justify-content: center; */
+    /* justify-content: space-evenly; */
+    margin-left: 8%;
+}
+
+.main-div2 .input-container {
+    margin-top: 20px;
+    margin-bottom: 14px;
+}
+
+.main-div2 label {
+    color: #FFF;
+}
+
+.btn2 button {
+    margin-left: 40%;
+    margin-top: 32%;
+    border: 1px solid #DEA527;
+    padding: 5px 10px;
+    border-radius: 4px;
+    background: #FFB000;
+    cursor: pointer;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+/* #################### Form styling End ####################### */
+
+/* <!-- ################ AIRPORT TRANSPORT STYLING START ########################### --> */
+
+.transport {
+    margin-left: 8%;
+    margin-top: 3%;
+}
+
+.transport h1 {
+    color: #212529;
+    font-family: Montserrat;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.transport p {
+    color: #212529;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: inline;
+}
+
+.credit p {
+    color: #2B9D07;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+}
+
+.credit .fa-solid {
+    width: 12px;
+    height: 10px;
+    color: #2B9D07;
+    margin-left: 10px;
+}
+
+.car-container {
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px solid #DEA527;
+    border-radius: 6px;
+    margin: 20px 60px;
+    padding: 40px 0px;
+}
+
+.car img {
+    width: 260px;
+    height: 140px;
+}
+.gmc{
+    margin-top: 40px;
+}
+.gmc h2 {
+    color: #212529;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.gmc p {
+    color: #212529;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.gmc span {
+    color: #2B9D07;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.facilities{
+    padding-top: 40px;
+}
+
+.facilities li {
+    list-style: none;
+    display: inline;
+
+}
+
+.facilities .fa-solid {
+    color: #707070;
+    width: 21px;
+    height: 21px;
+    flex-shrink: 0;
+}
+
+.facilities img {
+    color: #707070;
+    width: 18px;
+    height: 16px;
+}
+
+.price {
+    padding-top: 40px;
+}
+
+.price h2{
+    color: #212529;
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.price p{
+    color: #212529;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.buton{
+    padding-top: 40px;
+}
+
+.buton span{
+    color: #2B9D07;
+font-family: Montserrat;
+font-size: 12px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.buton button{
+    border: 2px solid #DEA527;
+    background: #DEA527;
+    color: #FFF;
+    padding: 5px 30px;
+    border-radius: 4px;
+}
+
+/* <!-- ################ AIRPORT TRANSPORT STYLING END ########################### --> */
+
+/* ######################## FOOTER STYLING START ############################# */
+hr {
+    height: 2px;
+    background: #808080;
+    align-items: center;
+    margin-right: 5%;
+    margin-left: 5%; 
+    margin-top: 5%;
+   
+
+}
+
+.furas-travel {
+    display: flex;
+
+}
+
+.footer-data {
+    margin-left: 10%;
+
+}
+
+.furas-travel h4 {
+    color: #212529;
+    font-family: Montserrat;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-top: 30px;
+}
+
+.furas-travel li {
+    color: #212529;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: none;
+    font-weight: 400;
+    line-height: 30px;
+    list-style: none;
+}
+
+.footer-data {
+    color: #212529;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.footer-data label {
+    color: #212529;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 8px;
+    position: absolute;
+    margin-top: 5px;
+}
+
+.footer-data input {
+    border-radius: 7px;
+    border: 1px solid #696969;
+    padding: 5px 15px;
+
+}
+
+button {
+    margin-top: 15px;
+    border: 1px solid #DEA527;
+    border-radius: 5px;
+    background: #DEA527;
+    padding: 2px 15px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.footer-data img{
+    width: 20px;
+    float: left;
+    padding-top: 5px;
+    margin-left: 16px;
+    position: relative;
+    margin-right: 10%;
+}
+
+
+.copyright {
+    text-align: center;
+    color: #212529;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 5%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    border-top: 1px solid #000;
+    margin-right: 6%;
+    margin-left: 6%;
+}
+/* ######################## FOOTER STYLING END ############################# */

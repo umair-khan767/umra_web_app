@@ -13,8 +13,8 @@
     display: flex;
     justify-content: space-between;
     z-index: 100;
-    background: #212529;
-    width: 1262px;
+    background: url(./images/about-us/Rectangle\ 222.png) no-repeat;
+    width: 1263px;
     height: 102px;
     flex-shrink: 0;
 }
@@ -56,6 +56,7 @@
     font-weight: 700;
 
 }
+
 .btn button:hover {
     background: #DEA527;
     color: black;
@@ -71,14 +72,10 @@
 
 /* ##################### HEADER END ########################## */
 
-/* ######################## ABOUT US PAGE styling START ################## */
-
-.about {
-    margin: 40px 65px 67px 85px;
-
-}
-
-.content h1 {
+/* #################### Content Page ##################### */
+.container h1 {
+    margin-left: 10%;
+    margin-top: 25px;
     color: #212529;
     font-family: Montserrat;
     font-size: 35px;
@@ -87,56 +84,72 @@
     line-height: normal;
 }
 
-.content p {
-    color: #212529;
-    font-family: Montserrat;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    margin-top: 30px;
+.main-div {
+    display: flex;
+    border: 2px solid white;
+    box-shadow: 0px 5px 5px 2px rgb(208, 211, 212);
+    border-radius: 12px;
+    margin-top: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 10px 20px 20px 10px;
 }
 
-.mission {
-    position: relative;
-    text-align: center;
-    border: 2px solid #DEA527;
-    margin: 0px 65px 67px 85px;
+.img1 img {
+    width: 400px;
+    height: 150px;
 }
 
-.mission img {
-    margin-top: 30px;
-    width: 1050px;
-    height: 300px;
-    flex-shrink: 0;
+.data {
+    margin-left: 10px;
+    margin-top: 15px;
+
 }
 
-.mission h2 {
-    margin-top: 20px;
+.data h4 {
     color: #212529;
     font-family: Montserrat;
     font-size: 20px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 500;
     line-height: normal;
+    line-height: 25px;
 }
 
-.mission p {
-    margin: 20px 50px;
+.data p {
     color: #212529;
-    text-align: center;
     font-family: Montserrat;
-    font-size: 18px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
 
-/* ######################## About us styling END ##################### */
+.data button {
+    margin-top: 10px;
+    border: 1px solid #DEA527;
+    /* border-radius: 5px; */
+    background: #DEA527;
+    padding: 2px 15px;
+    cursor: pointer;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
 
+/* #################### Content Page END ##################### */
 
-.book h1 {
-    text-align: center;
+/* #################### TEXT SECTION STYLING START ##################### */
+.text-section {
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-right: 10%;
+}
+
+.text-section h1 {
     color: #212529;
     font-family: Montserrat;
     font-size: 35px;
@@ -145,58 +158,69 @@
     line-height: normal;
 }
 
-.assets{
-    display: flex;
-    margin: 0px 70px;
-}
-
-.column {
-    border: 2px solid #DEA527;
-    text-align: center;
-    margin: 30px 5px;
-    padding: 30px 15px;
-}
-
-.column img {
-    width: 40px;
-    height: 40px;
-    margin-top: 20px;
-}
-
-.column h6 {
+.text-section p {
+    margin-top: 10px;
     color: #212529;
-    font-family: Montserrat;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    margin-top: 20px;
-}
-
-.column p {
-    color: #212529;
-    text-align: center;
     font-family: Montserrat;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin: 10px 15px;
 }
 
-/* ##################### END #################### */
-/* ##################### FOOTER STYLING START #################### */
+/* #################### TEXT SECTION STYLING END ##################### */
 
+
+/* #################### 2ND TEXT SECTION  STYLING START ##################### */
+
+.second-section{
+    margin-left: 10%;
+    margin-top: 3%;
+    margin-right: 10%;
+}
+
+.heading h1{
+    color: #212529;
+    font-family: Montserrat;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.paragraph p{
+ 
+    background: #D9D9D9;
+    width: 310px;
+    height: 30px;
+    padding-top: 5px;
+    padding-left: 5px;
+    margin-bottom: 5px;
+    color: #212529;
+    font-family: Montserrat;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 15px;
+}
+
+.main-para{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 15px;
+    
+}
+/* #################### 2ND TEXT SECTION  STYLING END ##################### */
+
+/* ######################## FOOTER STYLING START ############################# */
 hr {
-    /* width: 940px; */
     height: 2px;
     background: #808080;
     align-items: center;
     margin-right: 6%;
     margin-left: 6%; 
-    margin-top: 30px;
-   
-
+    margin-top: 5%;
 }
 
 .furas-travel {
@@ -255,7 +279,6 @@ hr {
     border-radius: 7px;
     border: 1px solid #696969;
     padding: 5px 15px;
-
 }
 
 button {
@@ -297,4 +320,4 @@ button {
     margin-right: 6%;
     margin-left: 6%;
 }
-
+/* ######################## FOOTER STYLING END ############################# */
