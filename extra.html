@@ -1,0 +1,180 @@
+<header class="header">
+        <a href="#" class="logo"><img src="./images/about-us/Group 1 logo.png" alt=""></a>
+        <form action="./login-page.html">
+            <div class="btn" >
+                <button type="click here">Sign in</button>
+                
+            </div>
+        </form>
+       
+
+          <select id="countrySelector">
+        <option value="">Select a Country</option>
+        <option value="US">United States</option>
+        <option value="CA">Canada</option>
+        <option value="PK">Pakistan</option>
+        <option value="CH">China</option>
+        <option value="IND">India</option>
+        <option value="SA">Saudi Arbia</option>
+        <option value="NEP">Nepal</option>
+        <option value="SRI">Serilanka</option>
+        <option value="AS">American Samoa</option>
+        <option value="AD">Andorra</option>
+        <option value="AO">Angola</option>
+        <option value="AI">Anguilla</option>
+        <option value="AQ">Antarctica</option>
+        <option value="AR">Argentina</option>
+        <option value="AM">Armenia</option>
+
+    </select> 
+
+
+        <nav class="navbar">
+            <a href="#">Contact Us</a>
+            <a href="about-company.html">About Us</a>
+            <a href="#">Rent A Car</a>
+            <a href="#">Tour</a>
+            <a href="#">Hotels</a>
+            <a href="#">Umrah</a>
+            <a href="#">Flights</a>
+            <a href="about-us.html">Home</a>
+        </nav>
+    </header>
+
+    <!-- /* ##################### HEADER END ########################## */ -->
+
+    <h2>Secure Booking - Only Takes 2 Minutes!</h2>
+    <div class="container">
+        <div class="compact">
+            <h3>Compact</h3>
+            <p>Dubai (DXB Airport) <br>
+                Wed, 7 Oct - Fri, 9 Oct
+            </p>
+            <li><img src="images/booking flioghts/Frame (2).png">5</li>
+            <li><img src="images/booking flioghts/Frame (1).png">2</li>
+            <li><img src="images/booking flioghts/Frame (3).png">Aircorn</li>
+            <li><img src="images/booking flioghts/Frame (Group 531).png">Automatic</li>
+            <h6>615 - Saudi Riyal</h6>
+        </div>
+        <div class="detail">
+            <h3>Who’s driving?</h3>
+            <p>Who’s driving?</p>
+
+            <form>
+                <label for="Contact Name *">Contact Name *</label><br>
+                <input type="text" id="Contact Name *" name="Contact Name *" placeholder="first and surname"><br>
+                <label for="Country/Territory Code *">Country/Territory Code *</label> <br>
+                <input type="text" id="Country/Territory Code *" name="Country/Territory Code *" placeholder="GBR +44"><br>
+                <label for="Phone Number *">Phone Number *</label> <br>
+                <input type="text" id="Phone Number *" name="Phone Number *" placeholder="In case we need to reach you ">
+            </form>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- CSSSSSSS -->
+    .header {
+        top: 0;
+        left: 0;
+        /* width: 100%; */
+        padding: 20px 35px;
+        display: flex;
+        justify-content: space-between;
+        z-index: 100;
+        background: #212529;
+        width: 1280px;
+        height: 102px;
+        flex-shrink: 0;
+    }
+    
+    .logo img {
+        height: 40px;
+        width: 170px;
+    }
+    
+    .navbar a {
+        font-size: 15px;
+        color: #FFF;
+        font-weight: 500;
+        text-decoration: none;
+        margin-left: 30px;
+        float: right;
+        margin-top: 40px;
+    
+    }
+    
+    .btn button {
+        float: right;
+        position: absolute;
+        margin-top: 1px;
+        margin-left: 62%;
+        margin-right: 5px;
+        background: none;
+        border: 1px solid white;
+        color: #FFF;
+        padding: 4px 7px;
+        border-radius: 4px;
+        cursor: pointer;
+        font-family: Montserrat;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+    
+    }
+    
+    .btn button:hover {
+        background: #DEA527;
+        color: black;
+    }
+    
+    #countrySelector {
+        height: 20px;
+        width: auto;
+        position: absolute;
+        margin-left: 79%;
+        margin-top: 3px;
+    }
+    
+    /* ##################### HEADER END ########################## */
+    
+    
+    .container{
+        display: flex;
+    
+    }
+    
+    h2{
+    margin-left: 40px;
+    margin-top: 40px;
+    color: #212529;
+    font-family: Montserrat;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    }
+    
+    .compact{
+        border-radius: 5px;
+    border: 2px solid #DEA527;
+    background: #FFF;
+    padding: 5px;
+    }
+    .compact h3{
+        border-bottom: 2px solid #DEA527;
+    }
+    .compact p{
+        color: #696969;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    }
+    
+    .compact li{
+        display: inline;
+    }

@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.navbar {
+    height: 80px;
+}
+
+.navbar-brand img {
+    width: 200px;
+}
+
+form .btn {
+    border: 1px solid #fff;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+form .btn:hover {
+    color: black;
+    background: #DEA527;
+}
+
+/* ===================== Header Styling complete ============================ */
+
+/* ==================Secure Compact Section Styling Styling start ================== */
+.secure-banking .row h2 {
+    color: #212529;
+    font-family: Montserrat;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.compact {
+    border-radius: 5px;
+    border: 2px solid #DEA527;
+    background: #FFF;
+    width: 10px;
+    height: 260px;
+}
+
+.compact h3 {
+    color: #212529;
+    font-family: Montserrat;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-bottom: 1.5px solid #DEA527;
+}
+
+.compact p {
+    color: #696969;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.compact-icons li {
+    /* list-style: none; */
+}
+
+.compact h6 {
+    color: #212529;
+    font-family: Montserrat;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.row .driving {
+    border-radius: 5px;
+    border: 2px solid #DEA527;
+    background: #FFF;
+    max-width: 70%;
+    margin-left: 20px;
+}
+
+.driving h3 {
+    color: #212529;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;    
+}
+.driving p{
+    color: #696969;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.driving label{
+    color: #212529;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.driving input{
+    color: #212529;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+padding: 3px 90px 3px 10px;
+border-radius: 5px;
+border: 1px solid #212529;
+}
+ .dropmenu{
+    font-size: 14px;
+    background-color: #fff;
+    border-radius: 5px;
+border: 1px solid #212529;
+padding-left: 10px;
+}
+
+
+/* ==================Secure Compact Section Styling Styling end ================== */
+
+.payment{
+    border-radius: 5px;
+border: 2px solid #DEA527;
+background: #FFF;
+width: 70%;
+    margin-left: 20px;
+}
+
+.payment h3{
+    color: #212529;
+font-family: Montserrat;
+font-size: 23px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.payment p{
+    color: #2B9D07;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.payment label{
+    color: #212529;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 15px;
+}
