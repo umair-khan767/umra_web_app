@@ -102,6 +102,15 @@ form .btn:hover {
     line-height: normal;
 }
 
+ .damage .driving {
+    color: #2B9D07;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
 .driving label {
     color: #212529;
     font-family: Montserrat;
