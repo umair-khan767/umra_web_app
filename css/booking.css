@@ -67,10 +67,6 @@ form .btn:hover {
     line-height: normal;
 }
 
-.compact-icons li {
-    /* list-style: none; */
-}
-
 .compact h6 {
     color: #212529;
     font-family: Montserrat;
@@ -94,77 +90,249 @@ form .btn:hover {
     font-size: 25px;
     font-style: normal;
     font-weight: 600;
-    line-height: normal;    
+    line-height: normal;
 }
-.driving p{
+
+.driving p {
     color: #696969;
-font-family: Montserrat;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
-.driving label{
+
+.driving label {
     color: #212529;
-font-family: Montserrat;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
-.driving input{
+
+.driving input {
     color: #212529;
-font-family: Montserrat;
-font-size: 14px;
-font-style: normal;
-font-weight: 300;
-line-height: normal;
-padding: 3px 90px 3px 10px;
-border-radius: 5px;
-border: 1px solid #212529;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    padding: 3px 90px 3px 10px;
+    border-radius: 5px;
+    border: 1px solid #212529;
 }
- .dropmenu{
+
+.dropmenu {
     font-size: 14px;
     background-color: #fff;
     border-radius: 5px;
-border: 1px solid #212529;
-padding-left: 10px;
+    border: 1px solid #212529;
+    padding-left: 10px;
 }
-
 
 /* ==================Secure Compact Section Styling Styling end ================== */
 
-.payment{
+/* =========================== Payment Section Styling Start ========================= */
+
+.payment {
     border-radius: 5px;
-border: 2px solid #DEA527;
-background: #FFF;
-width: 70%;
+    border: 2px solid #DEA527;
+    background: #FFF;
+    width: 70%;
     margin-left: 20px;
 }
 
-.payment h3{
+.payment h3 {
     color: #212529;
-font-family: Montserrat;
-font-size: 23px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
+    font-family: Montserrat;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
 
-.payment p{
+.payment p {
     color: #2B9D07;
-font-family: Montserrat;
-font-size: 14px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
-.payment label{
+
+.payment label {
     color: #212529;
-font-family: Montserrat;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-margin-top: 15px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 15px;
 }
+
+/* =========================== Payment Section Styling End ========================= */
+
+/* ======================== Confirm Section Styling Start ========================== */
+.confirm-box .box-data {
+    border-radius: 5px;
+    border: 2px solid #DEA527;
+    background: #FFF;
+    width: 71%;
+    margin-left: 18px;
+}
+
+.box-data h3 {
+    color: #212529;
+    font-family: Montserrat;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.box-data p {
+    color: #696969;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.box-data label {
+    color: #212529;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.box-data span {
+    color: #696969;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.box-data input {
+    border-radius: 2px;
+    border: 1px solid #707070;
+}
+
+.confirm-box button {
+    border: 1px solid #6B6B6B;
+    border-radius: 3px;
+    background: #6B6B6B;
+    padding: 7px 35px;
+    margin-left: 27%;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.confirm-box {
+    border-bottom: 1px solid #707070;
+    padding-bottom: 10PX;
+    margin: 20px 70px 20px 70px;
+}
+
+/* ======================== Confirm Section Styling End ========================== */
+
+
+/* ######################## FOOTER STYLING START ############################# */
+
+.footer-data h4 {
+    color: #212529;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 20px 0;
+}
+
+.footer .footer-data li {
+    list-style: none;
+    color: #212529;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.footer .footer-data li a {
+    text-decoration: none;
+    color: #212529;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.footer .footer-data li img {
+    width: 22px;
+    margin: 3px 5px 5px 0;
+}
+
+.footer .footer-data label {
+    color: #212529;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 5px;
+}
+
+.footer .footer-data input {
+    color: #696969;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 5px;
+    border: 1px solid #696969;
+    padding: 5px 50px 5px 5px;
+}
+
+.footer-data button {
+    border: 1px solid #DEA527;
+    border-radius: 5px;
+    background: #DEA527;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 5px 13px 5px 13px;
+    margin-top: 20px;
+}
+
+.copyright {
+    text-align: center;
+    color: #212529;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 5%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    border-top: 1px solid #000;
+    margin-right: 6%;
+    margin-left: 6%;
+}
+
+/* ######################## FOOTER STYLING END ############################# */
