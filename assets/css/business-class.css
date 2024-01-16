@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.navbar {
+    height: 80px;
+}
+
+.navbar-brand img {
+    width: 200px;
+}
+
+form .btn {
+    border: 1px solid #fff;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+   
+}
+
+form .btn:hover {
+    color: black;
+    background: #DEA527;
+}
+.navbar-collapse{
+    justify-content: end;
+}

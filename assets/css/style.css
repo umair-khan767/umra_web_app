@@ -6,7 +6,7 @@
 }
 
 body {
-    background: url(./images/Rectangle\ 3.png) no-repeat;
+    background: url(/assets/images/Rectangle\ 3.png) no-repeat;
     height: 100vh;
     background-size: cover;
     background-position: center;

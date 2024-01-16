@@ -21,11 +21,15 @@ form .btn {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+   
 }
 
 form .btn:hover {
     color: black;
     background: #DEA527;
+}
+.navbar-collapse{
+    justify-content: end;
 }
 
 /* ===================== Header Styling complete ============================ */

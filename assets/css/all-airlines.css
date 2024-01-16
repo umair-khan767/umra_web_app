@@ -13,7 +13,7 @@
     display: flex;
     justify-content: space-between;
     z-index: 100;
-    background: url(./images/about-us/Rectangle\ 222.png) no-repeat;
+    background: url(/assets/images/about-us/Rectangle\ 222.png) no-repeat;
     width: 1258px;
     height: 102px;
     flex-shrink: 0;
