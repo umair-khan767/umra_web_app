@@ -12,10 +12,14 @@
 .navbar-brand img {
     width: 200px;
 }
+#countrySelector{    
+    margin-left: 62%;
+}
 
 form .btn {
     border: 1px solid #fff;
     color: #FFF;
+    border-radius: 5px;
     font-family: Montserrat;
     font-size: 12px;
     font-style: normal;
@@ -30,4 +34,46 @@ form .btn:hover {
 }
 .navbar-collapse{
     justify-content: end;
+}
+
+/* ================================================================================ */
+
+.price {
+    border-radius: 5px;
+    border: 2px solid #DEA527;
+    /* background: #FFF; */
+}
+.price h3{
+    border-bottom: 2px solid #DEA527;
+    color: #212529;
+    font-family: Montserrat, sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.price h2{
+    color: #212529;
+font-family: Montserrat, sans-serif;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.price p{
+    color: #212529;
+font-family: Montserrat, sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+.price li{
+    list-style: none;
+    color: #2B9D07;
+font-family: Montserrat, sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 30px;
 }
